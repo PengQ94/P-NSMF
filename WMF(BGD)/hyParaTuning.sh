@@ -1,0 +1,28 @@
+# ML1M
+python wmf.py -dataset="ML1M-1" -gamma=2.6 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=6040 -m=3952 -train_path="ML1M-TXT-FORMAT/ML1M-copy1-train" -test_path="ML1M-TXT-FORMAT/ML1M-copy1-valid"
+python wmf.py -dataset="ML1M-1" -gamma=2.8 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=6040 -m=3952 -train_path="ML1M-TXT-FORMAT/ML1M-copy1-train" -test_path="ML1M-TXT-FORMAT/ML1M-copy1-valid"
+python wmf.py -dataset="ML1M-1" -gamma=3 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=6040 -m=3952 -train_path="ML1M-TXT-FORMAT/ML1M-copy1-train" -test_path="ML1M-TXT-FORMAT/ML1M-copy1-valid"
+python wmf.py -dataset="ML1M-1" -gamma=3.2 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=6040 -m=3952 -train_path="ML1M-TXT-FORMAT/ML1M-copy1-train" -test_path="ML1M-TXT-FORMAT/ML1M-copy1-valid"
+python wmf.py -dataset="ML1M-1" -gamma=3.4 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=6040 -m=3952 -train_path="ML1M-TXT-FORMAT/ML1M-copy1-train" -test_path="ML1M-TXT-FORMAT/ML1M-copy1-valid"
+python wmf.py -dataset="ML1M-1" -gamma=3.6 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=6040 -m=3952 -train_path="ML1M-TXT-FORMAT/ML1M-copy1-train" -test_path="ML1M-TXT-FORMAT/ML1M-copy1-valid"
+# Netflix5K5K
+python wmf.py -dataset="NF5k5k-1" -gamma=2 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-train" -test_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-valid"
+python wmf.py -dataset="NF5k5k-1" -gamma=2.2 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-train" -test_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-valid"
+python wmf.py -dataset="NF5k5k-1" -gamma=2.4 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-train" -test_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-valid"
+python wmf.py -dataset="NF5k5k-1" -gamma=2.6 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-train" -test_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-valid"
+python wmf.py -dataset="NF5k5k-1" -gamma=2.8 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-train" -test_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-valid"
+python wmf.py -dataset="NF5k5k-1" -gamma=3 -omega=4 -lambda_=0.01 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-train" -test_path="Netflix5K5K-TXT-FORAMT/NF5kUsers5kItemsHalfHalf-copy1-valid"
+# XING5K5K
+python wmf.py -dataset="XING5K5K-1" -gamma=8 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="XING5K5K/copy1.train" -test_path="XING5K5K/copy1.valid"
+python wmf.py -dataset="XING5K5K-1" -gamma=8.2 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="XING5K5K/copy1.train" -test_path="XING5K5K/copy1.valid"
+python wmf.py -dataset="XING5K5K-1" -gamma=8.4 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="XING5K5K/copy1.train" -test_path="XING5K5K/copy1.valid"
+python wmf.py -dataset="XING5K5K-1" -gamma=8.6 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="XING5K5K/copy1.train" -test_path="XING5K5K/copy1.valid"
+python wmf.py -dataset="XING5K5K-1" -gamma=8.8 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="XING5K5K/copy1.train" -test_path="XING5K5K/copy1.valid"
+python wmf.py -dataset="XING5K5K-1" -gamma=9 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=5000 -m=5000 -train_path="XING5K5K/copy1.train" -test_path="XING5K5K/copy1.valid"
+# Amazon_Kindle_Store
+python wmf.py -dataset="AmazonKS-1" -gamma=6.6 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=9862 -m=11298 -train_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-train" -test_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-valid"
+python wmf.py -dataset="AmazonKS-1" -gamma=6.8 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=9862 -m=11298 -train_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-train" -test_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-valid"
+python wmf.py -dataset="AmazonKS-1" -gamma=7 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=9862 -m=11298 -train_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-train" -test_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-valid"
+python wmf.py -dataset="AmazonKS-1" -gamma=7.2 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=9862 -m=11298 -train_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-train" -test_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-valid"
+python wmf.py -dataset="AmazonKS-1" -gamma=7.4 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=9862 -m=11298 -train_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-train" -test_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-valid"
+python wmf.py -dataset="AmazonKS-1" -gamma=7.6 -omega=6 -lambda_=0 -T=500 -d=20 -topK=5 -n=9862 -m=11298 -train_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-train" -test_path="Amazon_Kindle_Store-TXT-FORMAT/Amazon_Kindle_Store-copy1-valid"
